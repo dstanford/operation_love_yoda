@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  prescription_title: MyString
+  recipient_email: MyString
+  start_date: 2011-11-27 17:54:40
+  user_id: 1
+
+two:
+  prescription_title: MyString
+  recipient_email: MyString
+  start_date: 2011-11-27 17:54:40
+  user_id: 1

@@ -1,0 +1,2 @@
+class HugPrescriptionsController < ApplicationController
+end

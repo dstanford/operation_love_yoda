@@ -1,0 +1,2 @@
+module HugPrescriptionsHelper
+end
