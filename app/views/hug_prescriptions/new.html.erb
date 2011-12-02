@@ -1,0 +1,22 @@
+testing
+
+<%= form_for @hug_prescription do |f| %>
+ 
+  <div class="field">
+    <%= f.label :prescription_title %>
+	<%= f.text_field :prescription_title, :size => 50 %>
+  </div>
+
+  <div class="field">
+    <%= f.label :recipient_email, "Recipient's Email" %>
+	<%= f.text_field :recipient_email %>
+  </div>
+  <div class="field">
+	<%= f.label :start_date %>
+	<%= f.text_field :start_date, :size => 10 %>
+  </div>
+  <div class="actions">
+    <%= f.submit "Create" %>
+  </div>
+
+<% end %>
