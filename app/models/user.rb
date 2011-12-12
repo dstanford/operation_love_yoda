@@ -6,4 +6,10 @@ class User < ActiveRecord::Base
 
   # Setup accessible (or protected) attributes for your model
   attr_accessible :email, :password, :password_confirmation, :remember_me
+  has_many :hug_prescriptions
+  
+  def first_sign_in?
+    self.sign_in_count == 1
+  end
+  
 end
